@@ -5,6 +5,65 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* My Code: */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* My Code: */
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* My Code: */
+.header ul{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  padding: 0 20px 0 20px;
+}
+
+/* My Code: */
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+/* My Code: */
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* My Code: */
+.buttons button{
+  padding: 10px;
+} 
+
+/* My Code: */
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+
+/* My Code: */
+.footer ul{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  padding: 0 20px 0 20px;
 }
 
 img {
