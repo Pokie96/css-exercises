@@ -15,11 +15,44 @@ body {
   justify-content: center;
 }
 
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* My Code: */
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  gap: 15px;
+}
+
+/* My Code: */
+.center-column{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+}
+
+/* My Code: */
+.center-column button{
+  align-self: flex-start;
+}
+
+/* My Code: */
+.buttons{
+  display:flex;
+  flex-direction: row;
+  gap:5px;
+} 
+
+/* My Code: */
+.header{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .icon {
